@@ -33,7 +33,8 @@ class Program
             
             _client.Log += Log;
 
-            string token = "MTE2OTcxMDgzNjU1ODg2ODQ4MA.G0lXH3.CJ_nA3vPQ1KZX2KaO_nm0irilECmLijzyYQuTc";
+
+            string token = "";
 
             _client.Log += _client_Log;
 
