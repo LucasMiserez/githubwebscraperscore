@@ -1,5 +1,9 @@
 # GitHub Web Scraper
 
+<p align="center">
+    <img width="180" src="https://raw.githubusercontent.com/LucasMiserez/githubwebscraperscore/main/logo.png" alt="GitHub Scraper logo">
+</p>
+
 ## Overview
 
 GitHub Web Scraper is a simple C# program that allows users to extract valuable information from GitHub profiles and generate a score based on the features found in the user's profile. This tool uses Puppeteer to scrape data from GitHub's web pages, enabling you to assess GitHub users quickly and efficiently.
