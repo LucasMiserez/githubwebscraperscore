@@ -1,6 +1,6 @@
 using Discord.Commands;
-using linkedinwebscraper;
-using linkedinwebscraper.modules;
+using githubwebscraper;
+using githubwebscraper.modules;
 
 namespace githubwebscraperdiscordbot.modules;
 

@@ -1,4 +1,4 @@
-namespace linkedinwebscraper.modules;
+namespace githubwebscraper.modules;
 
 public class User
 {

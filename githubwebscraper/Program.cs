@@ -1,6 +1,6 @@
-﻿using linkedinwebscraper.modules;
+﻿using githubwebscraper.modules;
 
-namespace linkedinwebscraper;
+namespace githubwebscraper;
 
 class Program
 {

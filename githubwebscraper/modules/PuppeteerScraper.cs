@@ -1,6 +1,6 @@
 using PuppeteerSharp;
 
-namespace linkedinwebscraper.modules;
+namespace githubwebscraper.modules;
 
 public class PuppeteerScraper
 {
