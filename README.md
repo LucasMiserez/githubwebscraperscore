@@ -24,7 +24,7 @@ GitHub Web Scraper is a simple C# program that allows users to extract valuable 
 
 ## License
 
-This program is distributed under the GNU General Public License, version 3. You can find the full text of the license in the (LICENSE)[LICENSE] file.
+This project is licensed under the GNU General Public License version 3.0 (GNU GPLv3) - see the LICENSE file for details.
 
 ## Feedback
 
