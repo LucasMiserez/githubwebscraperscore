@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "githubwebscraper", "githubwebscraper\githubwebscraper.csproj", "{3FDC1DA4-95B4-4DC1-A2EB-22D652047EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "githubwebscraperdiscordbot", "githubwebscraperdiscordbot\githubwebscraperdiscordbot.csproj", "{834DD57C-8945-44FA-A6F3-B0D66114B793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FDC1DA4-95B4-4DC1-A2EB-22D652047EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDC1DA4-95B4-4DC1-A2EB-22D652047EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDC1DA4-95B4-4DC1-A2EB-22D652047EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDC1DA4-95B4-4DC1-A2EB-22D652047EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834DD57C-8945-44FA-A6F3-B0D66114B793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834DD57C-8945-44FA-A6F3-B0D66114B793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834DD57C-8945-44FA-A6F3-B0D66114B793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834DD57C-8945-44FA-A6F3-B0D66114B793}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
