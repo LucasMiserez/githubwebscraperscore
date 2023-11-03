@@ -5,7 +5,6 @@ using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 class Program
     {   
-        //variables
         public static Task Main(string[] args) => new Program().MainAsync();
         private DiscordSocketClient _client;
         public CommandService _commands;
@@ -33,9 +32,14 @@ class Program
             
             _client.Log += Log;
 
+            string? token =  Environment.GetEnvironmentVariable("DISCORD_TOKEN");
 
-            string token = "";
-
+            if (string.IsNullOrEmpty(token))
+            {
+                Console.WriteLine("No token provided. Please provide a token in the DISCORD_TOKEN environment variable.");
+                return;
+            }
+            
             _client.Log += _client_Log;
 
             await RegisterCommandsAsync();
