@@ -15,7 +15,7 @@ public class Commands : ModuleBase<SocketCommandContext>
         await context.Channel.TriggerTypingAsync();
         await ReplyAsync("Online and Ready to go!");
         await context.Channel.TriggerTypingAsync();
-        await context.Channel.SendMessageAsync($"You can use the following commands: !getscore <github url>");
+        await context.Channel.SendMessageAsync($"You can use the following commands: !getgithubscore <github url>");
     }
 
     [Command("getgithubscore")]
