@@ -9,7 +9,7 @@ public class PuppeteerScraper
         LaunchOptions? launchOptions = new LaunchOptions
         {
             Headless = true,
-            ExecutablePath = "/home/lucaslinuxlaptop/.appimages/gearlever_thoriumbrowser_02e245.appimage"
+            ExecutablePath = Environment.GetEnvironmentVariable("BROWSER_PATH")
         };
 
         using IBrowser? browser = await Puppeteer.LaunchAsync(launchOptions);
